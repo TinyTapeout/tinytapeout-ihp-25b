@@ -2,8 +2,9 @@
   "app": "Tiny Tapeout tt10 0985eb1d",
   "repo": "https://github.com/TinyTapeout/tt-chip-rom",
   "commit": "bb743722e70e5313617c15b7d6f487745634a0fa",
-  "workflow_url": "https://github.com/TinyTapeout/tinytapeout-ihp-25a-sources/actions/runs/13824401268",
-  "sort_id": 1731493280687,
-  "openlane_version": "OpenLane2 3.0.0.dev17",
-  "pdk_version": "IHP-Open-PDK 5493e28daf328d28470c45f01705e167c3f8dc63"
+  "workflow_url": "https://github.com/TinyTapeout/tt-chip-rom/actions/runs/13097696590",
+  "sort_id": 1745148610680,
+  "openlane_version": "OpenLane2 2.2.9",
+  "pdk_name": "open_pdks",
+  "pdk_version": "open_pdks 0fe599b2afb6708d281543108caf8310912f54af"
 }
