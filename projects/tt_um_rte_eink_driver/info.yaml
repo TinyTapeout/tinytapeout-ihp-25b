@@ -23,17 +23,17 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: "All white"
-  ui[1]: "All black"
+  ui[0]: "All white | Bitbang SCK"
+  ui[1]: "All black | Bitbang MOSI"
   ui[2]: "Vertical stripes"
   ui[3]: "Horizontal stripes"
   ui[4]: "Small checkerboard"
-  ui[5]: "Medium checkerboard"
+  ui[5]: "User SRAM contents"
   ui[6]: "Large checkerboard"
   ui[7]: "Low-res smiley face"
 
   # Outputs
-  uo[0]: ""
+  uo[0]: "SRAM MISO (out)"
   uo[1]: ""
   uo[2]: ""
   uo[3]: ""

@@ -48,6 +48,24 @@ To test the eight example patterns, raise one of the input pins
 to value "1".  This can be done with a set of external buttons on
 the input PMOD, or the input PMOD value can be set from software.
 
+ui[5] is a special case in which the contents of the display board's SRAM are
+copied directly to the e-ink display.  This uses an unusual method in which
+the SRAM is set to a sequential read mode and then is left enabled while the
+e-ink display is initialized.  Commands being sent to the display are ignored
+by the SRAM, which outputs one bit on every clock cycle.  The SRAM contents
+are then copied into the display starting at offset address 30 (which is the
+number of SPI bytes clocked while initializing the display).  The SRAM is
+volatile and so unprogrammed at power-up.  It can be programmed using the
+"pass-through" mode, in which the SRAM's SPI can be bit-banged from the ui[]
+port using software.  Enable "pass-through" mode by setting ui[7:4] to 0xf,
+then bit-bang using ui[0] for clock and ui[1] for data (if the SRAM is
+given a READ command, then output from the SRAM can be read from uo[0]).
+First put the SRAM into sequential mode with command 0x01 0x40.  End
+pass-through mode with ui = 0x00, then re-enter pass-through mode with
+ui = 0xf0.  Continue with the command 0x02 0x00 0x1e and then write 3904
+bytes of image data (32 bytes x 122 lines).  End pass-through mode again
+with ui = 0x00, then display the image data with ui = 0x20.
+
 ## External hardware
 
 Every e-ink display has a very specific driver, and making a general-purpose
@@ -55,10 +73,3 @@ driver is prohibitive for Tiny Tapeout.  The project is designed to drive
 the Adafruit 2.13" e-ink display, Product ID: 4197, URL
 https://www.adafruit.com/product/4197 (as of this writing, cost is $22.50).
 
-## Future directions?
-
-This driver does not make use of the SRAM on the Adafruit board.  A useful
-extension to the project would be to implement an SPI on the ui PMOD which
-would allow multiple patterns to be set but also allow a mode to upload a
-full-resolution image to the board SRAM which could then be displayed
-instead of one of the simple patterns.
