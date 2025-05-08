@@ -75,7 +75,7 @@ MACRO tt_um_bleeptrack_prism
   PIN rst_n
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.426400 ;
+    ANTENNAGATEAREA 0.314600 ;
     PORT
       LAYER Metal5 ;
         RECT 183.210 153.980 183.510 154.980 ;
@@ -84,6 +84,7 @@ MACRO tt_um_bleeptrack_prism
   PIN ui_in[0]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.180700 ;
     PORT
       LAYER Metal5 ;
         RECT 179.370 153.980 179.670 154.980 ;
@@ -92,6 +93,7 @@ MACRO tt_um_bleeptrack_prism
   PIN ui_in[1]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.180700 ;
     PORT
       LAYER Metal5 ;
         RECT 175.530 153.980 175.830 154.980 ;
@@ -100,6 +102,7 @@ MACRO tt_um_bleeptrack_prism
   PIN ui_in[2]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.180700 ;
     PORT
       LAYER Metal5 ;
         RECT 171.690 153.980 171.990 154.980 ;
@@ -108,6 +111,7 @@ MACRO tt_um_bleeptrack_prism
   PIN ui_in[3]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.180700 ;
     PORT
       LAYER Metal5 ;
         RECT 167.850 153.980 168.150 154.980 ;
@@ -116,6 +120,7 @@ MACRO tt_um_bleeptrack_prism
   PIN ui_in[4]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.180700 ;
     PORT
       LAYER Metal5 ;
         RECT 164.010 153.980 164.310 154.980 ;
@@ -124,6 +129,7 @@ MACRO tt_um_bleeptrack_prism
   PIN ui_in[5]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.180700 ;
     PORT
       LAYER Metal5 ;
         RECT 160.170 153.980 160.470 154.980 ;
@@ -132,6 +138,7 @@ MACRO tt_um_bleeptrack_prism
   PIN ui_in[6]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.180700 ;
     PORT
       LAYER Metal5 ;
         RECT 156.330 153.980 156.630 154.980 ;
@@ -140,6 +147,7 @@ MACRO tt_um_bleeptrack_prism
   PIN ui_in[7]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.180700 ;
     PORT
       LAYER Metal5 ;
         RECT 152.490 153.980 152.790 154.980 ;
@@ -419,7 +427,7 @@ MACRO tt_um_bleeptrack_prism
   PIN uo_out[7]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.706800 ;
+    ANTENNADIFFAREA 0.654800 ;
     PORT
       LAYER Metal5 ;
         RECT 91.050 153.980 91.350 154.980 ;
@@ -431,11 +439,11 @@ MACRO tt_um_bleeptrack_prism
       LAYER Metal1 ;
         RECT 2.880 3.560 199.200 151.420 ;
       LAYER Metal2 ;
-        RECT 15.515 3.680 183.505 151.300 ;
+        RECT 15.515 3.680 198.995 151.300 ;
       LAYER Metal3 ;
-        RECT 15.560 3.635 183.460 154.705 ;
+        RECT 15.560 3.635 198.820 154.285 ;
       LAYER Metal4 ;
-        RECT 15.515 3.680 187.345 154.660 ;
+        RECT 15.515 3.680 194.065 154.240 ;
       LAYER Metal5 ;
         RECT 30.120 153.770 33.240 153.980 ;
         RECT 33.960 153.770 37.080 153.980 ;
