@@ -9,7 +9,7 @@ export PDK=ihp-sg13g2
 export TT_CONFIG=ihp-sg13g2.yaml
 ```
 
-Then install OpenLane 2 with Nix, as explained [here](https://openlane2.readthedocs.io/en/latest/getting_started/nix_installation/index.html).
+Then install OpenLane 2 with Nix, as explained [here](https://openlane2.readthedocs.io/en/latest/getting_started/common/nix_installation/index.html).
 
 ## Repository setup
 
