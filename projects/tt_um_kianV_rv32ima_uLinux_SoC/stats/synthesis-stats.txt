@@ -1,0 +1,46 @@
+215. Printing statistics.
+
+=== tt_um_kianV_rv32ima_uLinux_SoC ===
+
+   Number of wires:              22014
+   Number of wire bits:          22049
+   Number of public wires:        2677
+   Number of public wire bits:    2712
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              19450
+     sg13g2_a21o_1                 194
+     sg13g2_a21oi_1               2024
+     sg13g2_a221oi_1               478
+     sg13g2_a22oi_1                745
+     sg13g2_and2_1                 297
+     sg13g2_and3_1                 105
+     sg13g2_and4_1                  26
+     sg13g2_buf_1                   39
+     sg13g2_dfrbp_1               2580
+     sg13g2_inv_1                  629
+     sg13g2_mux2_1                 365
+     sg13g2_mux4_1                 203
+     sg13g2_nand2_1               2095
+     sg13g2_nand2b_1               277
+     sg13g2_nand3_1                352
+     sg13g2_nand3b_1                32
+     sg13g2_nand4_1                137
+     sg13g2_nor2_1                1587
+     sg13g2_nor2b_1                243
+     sg13g2_nor3_1                 427
+     sg13g2_nor4_1                 114
+     sg13g2_o21ai_1               3337
+     sg13g2_or2_1                  130
+     sg13g2_or3_1                   52
+     sg13g2_or4_1                   15
+     sg13g2_tiehi                 2584
+     sg13g2_xnor2_1                276
+     sg13g2_xor2_1                 107
+
+   Chip area for module '\tt_um_kianV_rv32ima_uLinux_SoC': 278315.314200
+     of which used for sequential elements: 121709.952000 (43.73%)
+
