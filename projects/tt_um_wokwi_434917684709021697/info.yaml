@@ -1,0 +1,49 @@
+# Tiny Tapeout project information (Wokwi project)
+project:
+  wokwi_id:     434917684709021697       # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "Tiny Tapeout Template Copy_Orion"      # Project title
+  author:       "Caspar.Jakobi"      # Your name
+  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "Zählen, Rechnen, etc."      # One line description of what your project does
+  language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
+  clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
+
+  # How many tiles your design occupies? A single tile is about 167x108 uM.
+  tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
+
+
+# The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
+# This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
+pinout:
+  # Inputs
+  ui[0]: "IN0_Orion"
+  ui[1]: "IN1_Orion"
+  ui[2]: "IN2_Orion"
+  ui[3]: "IN3_Orion"
+  ui[4]: "IN4_Orion"
+  ui[5]: "IN5_Orion"
+  ui[6]: "IN6_Orion"
+  ui[7]: "IN7_Orion"
+
+  # Outputs
+  uo[0]: "OUT0_Orion"
+  uo[1]: "OUT1_Orion"
+  uo[2]: "OUT2_Orion"
+  uo[3]: "OUT3_Orion"
+  uo[4]: "OUT4_Orion"
+  uo[5]: "OUT5_Orion"
+  uo[6]: "OUT6_Orion"
+  uo[7]: "OUT7_Orion"
+
+  # Bidirectional pins
+  uio[0]: ""
+  uio[1]: ""
+  uio[2]: ""
+  uio[3]: ""
+  uio[4]: ""
+  uio[5]: ""
+  uio[6]: ""
+  uio[7]: ""
+
+# Do not change!
+yaml_version: 6
