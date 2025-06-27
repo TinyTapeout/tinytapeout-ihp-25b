@@ -1,0 +1,10 @@
+{
+  "app": "Tiny Tapeout ttihp25b bebe93d9",
+  "repo": "https://github.com/3DG-CH/Chip-Tapeout",
+  "commit": "d23a9e9a09e174e64b6f6b56d43b8317f5db8bbf",
+  "workflow_url": "https://github.com/3DG-CH/Chip-Tapeout/actions/runs/15929113865",
+  "sort_id": 1751036245632,
+  "openlane_version": "OpenLane2 3.0.0.dev23",
+  "pdk_name": "IHP-Open-PDK",
+  "pdk_version": "IHP-Open-PDK 0335431f16206e4f542d6118549125d45a1f8977"
+}

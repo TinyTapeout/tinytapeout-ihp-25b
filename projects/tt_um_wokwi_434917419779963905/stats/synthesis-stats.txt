@@ -1,0 +1,20 @@
+101. Printing statistics.
+
+=== tt_um_wokwi_434917419779963905 ===
+
+   Number of wires:                  8
+   Number of wire bits:             43
+   Number of public wires:           8
+   Number of public wire bits:      43
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 24
+     sg13g2_buf_1                    4
+     sg13g2_tielo                   20
+
+   Chip area for module '\tt_um_wokwi_434917419779963905': 174.182400
+     of which used for sequential elements: 0.000000 (0.00%)
+
