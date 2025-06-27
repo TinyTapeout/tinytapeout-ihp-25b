@@ -1,0 +1,10 @@
+{
+  "app": "Tiny Tapeout ttihp25b bebe93d9",
+  "repo": "https://github.com/cztee/GDS_tutorial",
+  "commit": "81b3fcf046a40680114b09624112725b73464b25",
+  "workflow_url": "https://github.com/cztee/GDS_tutorial/actions/runs/15928140111",
+  "sort_id": 1751036548716,
+  "openlane_version": "OpenLane2 3.0.0.dev23",
+  "pdk_name": "IHP-Open-PDK",
+  "pdk_version": "IHP-Open-PDK 0335431f16206e4f542d6118549125d45a1f8977"
+}
