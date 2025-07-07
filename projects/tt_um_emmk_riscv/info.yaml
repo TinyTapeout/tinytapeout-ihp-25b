@@ -1,0 +1,70 @@
+# Tiny Tapeout project information
+project:
+  title:        "ENSEIRB-MATMECA RISC-V processor"      # Project title
+  author:       "Mathieu Escouteloup"      # Your name
+  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "RISC-V core implementation (32-bit with 8 GPRs)"      # One line description of what your project does
+  language:     "SystemVerilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
+  clock_hz:     50000000       # Clock frequency in Hz (or 0 if not applicable)
+
+  # How many tiles your design occupies? A single tile is about 167x108 uM.
+  tiles: "4x2"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
+
+  # Your top module name must start with "tt_um_". Make it unique by including your github username:
+  top_module:  "tt_um_emmk_riscv"
+
+  # List your project's source files here.
+  # Source files must be in ./src and you must list each source file separately, one per line.
+  # Don't forget to also update `PROJECT_SOURCES` in test/Makefile.
+  source_files:
+    - "Top.v"
+    - "Sys.sv"
+    - "Alu.sv"
+    - "Bootloader.sv"
+    - "Bru.sv"
+    - "Core.sv"
+    - "Decoder.sv"
+    - "Fsm.sv"
+    - "Gpio8.sv"
+    - "Gpr.sv"
+    - "Ram.sv"
+    - "RamSv.sv"
+    - "Uart.sv"
+    - "UartRx.sv"
+    - "UartTx.sv"
+
+# The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
+# This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
+pinout:
+  # Inputs
+  ui[0]: "BOOT"
+  ui[1]: "IN1_FREE"
+  ui[2]: "IN2_FREE"
+  ui[3]: "UART_RX"
+  ui[4]: "IN4_FREE"
+  ui[5]: "IN5_FREE"
+  ui[6]: "IN6_FREE"
+  ui[7]: "IN7_FREE"
+
+  # Outputs
+  uo[0]: "OUT0_FREE"
+  uo[1]: "OUT1_FREE"
+  uo[2]: "OUT2_FREE"
+  uo[3]: "OUT3_FREE"
+  uo[4]: "UART_TX"
+  uo[5]: "OUT5_FREE"
+  uo[6]: "OUT6_FREE"
+  uo[7]: "OUT7_FREE"
+
+  # Bidirectional pins
+  uio[0]: "GPIO0"
+  uio[1]: "GPIO1"
+  uio[2]: "GPIO2"
+  uio[3]: "GPIO3"
+  uio[4]: "GPIO4"
+  uio[5]: "GPIO5"
+  uio[6]: "GPIO6"
+  uio[7]: "GPIO7"
+
+# Do not change!
+yaml_version: 6
