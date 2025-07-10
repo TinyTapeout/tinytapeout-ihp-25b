@@ -8,3 +8,9 @@ project:
   authors:
     - "Logan Lemons <lemonslogan927@gmail.com>"
   organization: "Personal project"
+
+pinout:
+  - name: clk
+    direction: input
+  - name: one_hz_out
+    direction: output
