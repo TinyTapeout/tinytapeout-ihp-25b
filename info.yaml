@@ -1,0 +1,8 @@
+project:
+  shuttle: ihp-25b
+  foundry: ihp
+  process: SG13G2
+  description: "1Hz clock divider"
+  authors:
+    - "Logan Lemons <lemonslogan927@gmail.com>"
+  organization: "Personal project"
