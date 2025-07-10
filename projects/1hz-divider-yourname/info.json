@@ -1,0 +1,12 @@
+{
+  "project_name": "1Hz Clock Divider",
+  "author": "Anonymous Hero",
+  "description": "Divides 32.768kHz input clock to 1Hz using a 15-bit binary counter.",
+  "inputs": [
+    "clk"
+  ],
+  "outputs": [
+    "one_hz_out"
+  ],
+  "clock": "clk"
+}
