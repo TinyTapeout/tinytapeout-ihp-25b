@@ -8,6 +8,7 @@ project:
   authors:
     - "Logan Lemons <lemonslogan927@gmail.com>"
   organization: "Personal project"
+  tiles: 1
 
 pinout:
   - name: clk
