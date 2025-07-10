@@ -1,10 +1,11 @@
 yaml_version: 6
 
 project:
+  title: "1Hz Clock Divider"
   shuttle: ihp-25b
   foundry: ihp
   process: SG13G2
-  description: "1Hz clock divider"
+  description: "Divides a 32.768kHz input clock down to 1Hz using a 15-bit binary counter."
   authors:
     - "Logan Lemons <lemonslogan927@gmail.com>"
   organization: "Personal project"
