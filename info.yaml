@@ -3,6 +3,7 @@ yaml_version: 6
 project:
   title: "1Hz Clock Divider"
   author: "Logan Lemons"
+  top_module: "top"
   shuttle: ihp-25b
   foundry: ihp
   process: SG13G2
