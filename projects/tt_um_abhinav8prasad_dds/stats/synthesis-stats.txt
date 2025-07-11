@@ -1,0 +1,43 @@
+125. Printing statistics.
+
+=== tt_um_abhinav8prasad_dds ===
+
+   Number of wires:                352
+   Number of wire bits:            387
+   Number of public wires:          24
+   Number of public wire bits:      59
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                352
+     sg13g2_a21o_1                   4
+     sg13g2_a21oi_1                 41
+     sg13g2_a221oi_1                15
+     sg13g2_a22oi_1                 13
+     sg13g2_and2_1                   9
+     sg13g2_and3_1                   1
+     sg13g2_dfrbp_1                 16
+     sg13g2_inv_1                    9
+     sg13g2_mux2_1                   8
+     sg13g2_nand2_1                 38
+     sg13g2_nand2b_1                13
+     sg13g2_nand3_1                 16
+     sg13g2_nand3b_1                 3
+     sg13g2_nand4_1                  1
+     sg13g2_nor2_1                  41
+     sg13g2_nor2b_1                 15
+     sg13g2_nor3_1                  22
+     sg13g2_nor4_1                   4
+     sg13g2_o21ai_1                 41
+     sg13g2_or2_1                    3
+     sg13g2_or3_1                    3
+     sg13g2_or4_1                    1
+     sg13g2_tielo                   16
+     sg13g2_xnor2_1                  8
+     sg13g2_xor2_1                  11
+
+   Chip area for module '\tt_um_abhinav8prasad_dds': 3933.127800
+     of which used for sequential elements: 754.790400 (19.19%)
+
