@@ -1,0 +1,135 @@
+# Tiny Tapeout project information
+project:
+  title:        "TinyQV - Crowdsourced Risc-V SoC"      # Project title
+  author:       "Michael Bell, et al"      # Your name
+  discord:      "rebelmike"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "A Risc-V SoC with peripherals from the Tiny Tapeout Risc-V challenge"      # One line description of what your project does
+  language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
+  clock_hz:     64000000       # Clock frequency in Hz (or 0 if not applicable)
+
+  # How many tiles your design occupies? A single tile is about 167x108 uM.
+  tiles: "5x4"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
+
+  # Your top module name must start with "tt_um_". Make it unique by including your github username:
+  top_module:  "tt_um_tt_tinyQV"
+
+  # List your project's source files here.
+  # Source files must be in ./src and you must list each source file separately, one per line.
+  # Don't forget to also update `PROJECT_SOURCES` in test/Makefile.
+  source_files:
+    - "project.v"
+    - "peripherals.v"
+    - "peri_full_example.v"
+    - "peri_byte_example.v"
+    - "peri_full_empty.v"
+    - "peri_byte_empty.v"
+    - "user_peripherals/tqvp_dsatizabal_fpu.sv"
+    - "user_peripherals/fpu/fpu_add.v"
+    - "user_peripherals/fpu/fpu_mult.v"
+    - "user_peripherals/edge_counter.v"
+    - "user_peripherals/pwm_sk.v"
+    - "user_peripherals/uart/peri_uart.v"
+    - "user_peripherals/uart/uart_rx.v"
+    - "user_peripherals/uart/uart_tx.v"
+    - "user_peripherals/spi.v"
+    - "user_peripherals/game_pmod.v"
+    - "user_peripherals/encoder/debounce.v"
+    - "user_peripherals/encoder/encoder.v"
+    - "user_peripherals/encoder/matt_encoder.v"
+    - "user_peripherals/encoder/strobe_gen.v"
+    - "user_peripherals/impostor_ws2812b/impostor_ws2812b.v"
+    - "user_peripherals/impostor_ws2812b/ws2812b_byte_assembler.v"
+    - "user_peripherals/impostor_ws2812b/ws2812b_demux.v"
+    - "user_peripherals/impostor_ws2812b/ws2812b_idle_detector.v"
+    - "user_peripherals/impostor_ws2812b/ws2812b_pulse_decoder.v"
+    - "user_peripherals/ledstrip/ledstrip.v"
+    - "user_peripherals/ledstrip/ws2812b.v"
+    - "user_peripherals/ledstrip/char_rom.v"
+    - "user_peripherals/matt_pwm/matt_pwm.v"
+    - "user_peripherals/matt_pwm/pwm_strobe_gen.v"
+    - "user_peripherals/matt_pwm/pwm.v"
+    - "user_peripherals/spike.v"
+    - "user_peripherals/baby_vga/rot_register.v"
+    - "user_peripherals/baby_vga/rot_register_file.v"
+    - "user_peripherals/baby_vga/framebuffer.v"
+    - "user_peripherals/baby_vga/vga_timing.v"
+    - "user_peripherals/baby_vga/peripheral.v"
+    - "user_peripherals/prism/prism_periph.v"
+    - "user_peripherals/prism/latch_shift_reg.v"
+    - "user_peripherals/prism/latch_loader.v"
+    - "user_peripherals/prism/prism.v"
+    - "user_peripherals/prism/prism_sr_sit.v"
+    - "user_peripherals/prism/prism_latch_sit.v"
+    - "user_peripherals/prism/prism_latch_reg.v"
+    - "user_peripherals/vgaconsole/vgaconsole.v"
+    - "user_peripherals/vgaconsole/char_rom.v"
+    - "user_peripherals/vgaconsole/vga_timing.v"
+    - "user_peripherals/prng/prng.v"
+    - "user_peripherals/prng/xoshiro128plusplus.v"
+    - "user_peripherals/pwl_synth/pwl_synth.sv"
+    - "user_peripherals/pwl_synth/pwl_synth_memory.sv"
+    - "user_peripherals/wdt/tqvp_nkanderson_wdt.sv"
+    - "user_peripherals/tqvp_laurie_dwarf_line_table_accelerator.sv"
+    - "user_peripherals/pulse_transmitter/peripheral.v"
+    - "user_peripherals/pulse_transmitter/carrier.v"
+    - "user_peripherals/pulse_transmitter/countdown_timer.v"
+    - "user_peripherals/pulse_transmitter/delay_1.v"
+    - "user_peripherals/pulse_transmitter/delay_2.v"
+    - "user_peripherals/pulse_transmitter/simple_falling_edge_detector.v"
+    - "user_peripherals/pulse_transmitter/simple_rising_edge_detector.v"
+    - "user_peripherals/hardware_utf8/hardware_utf8.v"
+    - "user_peripherals/waveforms/font.sv"
+    - "user_peripherals/waveforms/peripheral.sv"
+    - "user_peripherals/ubcd/ascii.v"
+    - "user_peripherals/ubcd/cistercian.v"
+    - "user_peripherals/ubcd/kaktovik.v"
+    - "user_peripherals/ubcd/peripheral.v"
+    - "user_peripherals/ubcd/ubcd.v"
+    - "tinyQV/cpu/tinyqv.v"
+    - "tinyQV/cpu/alu.v"
+    - "tinyQV/cpu/core.v"
+    - "tinyQV/cpu/counter.v"
+    - "tinyQV/cpu/cpu.v"
+    - "tinyQV/cpu/decode.v"
+    - "tinyQV/cpu/mem_ctrl.v"
+    - "tinyQV/cpu/qspi_ctrl.v"
+    - "tinyQV/cpu/register.v"
+    - "tinyQV/cpu/latch_reg.v"
+    - "tinyQV/cpu/time.v"
+    - "tinyQV/peri/uart/uart_tx.v"
+
+
+# The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
+pinout:
+  # Inputs
+  ui[0]: "Interrupt 0"
+  ui[1]: "Interrupt 1"
+  ui[2]: ""
+  ui[3]: ""
+  ui[4]: ""
+  ui[5]: ""
+  ui[6]: ""
+  ui[7]: "UART RX"
+
+  # Outputs
+  uo[0]: "UART TX"
+  uo[1]: "UART RTS"
+  uo[2]: ""
+  uo[3]: ""
+  uo[4]: ""
+  uo[5]: ""
+  uo[6]: "Debug UART TX"
+  uo[7]: "Debug signal / PWM"
+
+  # Bidirectional pins
+  uio[0]: "Flash CS"
+  uio[1]: "SD0"
+  uio[2]: "SD1"
+  uio[3]: "SCK"
+  uio[4]: "SD2"
+  uio[5]: "SD3"
+  uio[6]: "RAM A CS"
+  uio[7]: "RAM B CS / PWM"
+
+# Do not change!
+yaml_version: 6
