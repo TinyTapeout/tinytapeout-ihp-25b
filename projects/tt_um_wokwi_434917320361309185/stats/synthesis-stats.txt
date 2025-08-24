@@ -1,62 +1,85 @@
 101. Printing statistics.
 
-=== not_cell ===
+=== dff_cell ===
 
-   Number of wires:                  2
-   Number of wire bits:              2
-   Number of public wires:           2
-   Number of public wire bits:       2
-   Number of ports:                  2
-   Number of port bits:              2
+   Number of wires:                  5
+   Number of wire bits:              5
+   Number of public wires:           4
+   Number of public wire bits:       4
+   Number of ports:                  4
+   Number of port bits:              4
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
-   Number of cells:                  1
-     sg13g2_inv_1                    1
+   Number of cells:                  2
+     sg13g2_dfrbp_1                  1
+     sg13g2_tiehi                    1
 
-   Chip area for module '\not_cell': 5.443200
-     of which used for sequential elements: 0.000000 (0.00%)
+   Chip area for module '\dff_cell': 54.432000
+     of which used for sequential elements: 47.174400 (86.67%)
 
 === tt_um_wokwi_434917320361309185 ===
 
-   Number of wires:                 13
-   Number of wire bits:             48
-   Number of public wires:          13
-   Number of public wire bits:      48
+   Number of wires:                 97
+   Number of wire bits:            132
+   Number of public wires:          97
+   Number of public wire bits:     132
    Number of ports:                  8
    Number of port bits:             43
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
-   Number of cells:                 29
-     not_cell                        5
+   Number of cells:                 95
+     dff_cell                       57
      sg13g2_buf_1                    8
      sg13g2_tielo                   16
+     xor_cell                       14
 
-   Area for cell type \not_cell is unknown!
+   Area for cell type \dff_cell is unknown!
+   Area for cell type \xor_cell is unknown!
 
    Chip area for module '\tt_um_wokwi_434917320361309185': 174.182400
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== xor_cell ===
+
+   Number of wires:                  3
+   Number of wire bits:              3
+   Number of public wires:           3
+   Number of public wire bits:       3
+   Number of ports:                  3
+   Number of port bits:              3
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  1
+     sg13g2_xor2_1                   1
+
+   Chip area for module '\xor_cell': 14.515200
      of which used for sequential elements: 0.000000 (0.00%)
 
 === design hierarchy ===
 
    tt_um_wokwi_434917320361309185      1
-     not_cell                        5
+     dff_cell                       57
+     xor_cell                       14
 
-   Number of wires:                 23
-   Number of wire bits:             58
-   Number of public wires:          23
-   Number of public wire bits:      58
-   Number of ports:                 18
-   Number of port bits:             53
+   Number of wires:                424
+   Number of wire bits:            459
+   Number of public wires:         367
+   Number of public wire bits:     402
+   Number of ports:                278
+   Number of port bits:            313
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
-   Number of cells:                 29
+   Number of cells:                152
      sg13g2_buf_1                    8
-     sg13g2_inv_1                    5
+     sg13g2_dfrbp_1                 57
+     sg13g2_tiehi                   57
      sg13g2_tielo                   16
+     sg13g2_xor2_1                  14
 
-   Chip area for top module '\tt_um_wokwi_434917320361309185': 201.398400
+   Chip area for top module '\tt_um_wokwi_434917320361309185': 3480.019200
      of which used for sequential elements: 0.000000 (0.00%)
 

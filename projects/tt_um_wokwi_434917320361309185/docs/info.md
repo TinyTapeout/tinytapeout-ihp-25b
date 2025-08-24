@@ -9,12 +9,16 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-One bit is delayed with a cople of inverters, the others are just wired through.
+This is a 8 bit pseudo-random number generator. First, the chip clock is divided down by 14 cascaded divide-by-two stages.
+This chain results in a total division factor of 16'384. For a chip clock of 10 kHz, a frequency of 0.61 Hz results.
+This local slow clock drives four Fibonacci maximum-length linear shift registers (LFSRs) with 9, 10, 11, and 13 bits.
+To minimize correlations, these LFSRs are selected such that the sequence lengths are relative prime.
+For the final output, these four LFSR sequences are combined with XOR operations to generate 8 bits.
 
 ## How to test
 
-There's, most unfortunately, no real use for this design.
+The pseudo-random output bits can be observed with a 7-segment LED display, an oscilloscope, or a logic analyzer.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+A 7-segment LED display is recommended
