@@ -1,0 +1,10 @@
+{
+  "app": "Tiny Tapeout ttihp25b 68e2a499",
+  "repo": "https://github.com/Rodald/ttihp25b-8bit-cpu-crp",
+  "commit": "55e4b727b8a448ed0b11ca907495faa8fdc71c27",
+  "workflow_url": "https://github.com/Rodald/ttihp25b-8bit-cpu-crp/actions/runs/17139493470",
+  "sort_id": 1756156211294,
+  "openlane_version": "OpenLane2 3.0.0.dev23",
+  "pdk_name": "IHP-Open-PDK",
+  "pdk_version": "IHP-Open-PDK 0335431f16206e4f542d6118549125d45a1f8977"
+}
