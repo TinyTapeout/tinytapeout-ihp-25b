@@ -1,0 +1,45 @@
+159. Printing statistics.
+
+=== tt_um_alif_dual_unileak ===
+
+   Number of wires:                804
+   Number of wire bits:            839
+   Number of public wires:          77
+   Number of public wire bits:     112
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                751
+     sg13g2_a21o_1                  14
+     sg13g2_a21oi_1                 69
+     sg13g2_a221oi_1                 4
+     sg13g2_a22oi_1                 23
+     sg13g2_and2_1                  16
+     sg13g2_and3_1                  12
+     sg13g2_and4_1                   4
+     sg13g2_buf_1                    2
+     sg13g2_dfrbp_1                 69
+     sg13g2_inv_1                   52
+     sg13g2_mux2_1                  13
+     sg13g2_nand2_1                 59
+     sg13g2_nand2b_1                20
+     sg13g2_nand3_1                 20
+     sg13g2_nand4_1                  6
+     sg13g2_nor2_1                  63
+     sg13g2_nor2b_1                 18
+     sg13g2_nor3_1                  11
+     sg13g2_nor4_1                   3
+     sg13g2_o21ai_1                 99
+     sg13g2_or2_1                    7
+     sg13g2_or3_1                    4
+     sg13g2_or4_1                    1
+     sg13g2_tiehi                   70
+     sg13g2_tielo                   14
+     sg13g2_xnor2_1                 41
+     sg13g2_xor2_1                  37
+
+   Chip area for module '\tt_um_alif_dual_unileak': 9633.594600
+     of which used for sequential elements: 3255.033600 (33.79%)
+

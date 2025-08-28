@@ -1,0 +1,10 @@
+{
+  "app": "Tiny Tapeout ttihp25b 68e2a499",
+  "repo": "https://github.com/abaigol/lif_neuron_Alex",
+  "commit": "affc788c6c904952287d13690f733b2ba61907aa",
+  "workflow_url": "https://github.com/abaigol/lif_neuron_Alex/actions/runs/17297104548",
+  "sort_id": 1756394302803,
+  "openlane_version": "OpenLane2 3.0.0.dev23",
+  "pdk_name": "IHP-Open-PDK",
+  "pdk_version": "IHP-Open-PDK 0335431f16206e4f542d6118549125d45a1f8977"
+}
