@@ -1,0 +1,10 @@
+{
+  "app": "Tiny Tapeout ttihp25b 68e2a499",
+  "repo": "https://github.com/thuehlinger/tt-ihp25b-riscv-mini",
+  "commit": "07742048fc43d60b78e7a942a39aebd85a5c10e5",
+  "workflow_url": "https://github.com/thuehlinger/tt-ihp25b-riscv-mini/actions/runs/17306769064",
+  "sort_id": 1756412805255,
+  "openlane_version": "OpenLane2 3.0.0.dev23",
+  "pdk_name": "IHP-Open-PDK",
+  "pdk_version": "IHP-Open-PDK 0335431f16206e4f542d6118549125d45a1f8977"
+}
