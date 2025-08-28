@@ -1,0 +1,33 @@
+100. Printing statistics.
+
+=== tt_um_blptrk_weaving01 ===
+
+   Number of wires:                 37
+   Number of wire bits:             72
+   Number of public wires:           8
+   Number of public wire bits:      43
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 54
+     my_logo                         1
+     sg13g2_a21oi_1                  2
+     sg13g2_a221oi_1                 1
+     sg13g2_and2_1                   4
+     sg13g2_inv_1                    1
+     sg13g2_nand2_1                  4
+     sg13g2_nand2b_1                 1
+     sg13g2_nor2_1                   6
+     sg13g2_o21ai_1                  2
+     sg13g2_or2_1                    1
+     sg13g2_tielo                   16
+     sg13g2_xnor2_1                  8
+     sg13g2_xor2_1                   7
+
+   Area for cell type \my_logo is unknown!
+
+   Chip area for module '\tt_um_blptrk_weaving01': 517.104000
+     of which used for sequential elements: 0.000000 (0.00%)
+
