@@ -1,17 +1,22 @@
 # Tiny Tapeout project information (Wokwi project)
-project:
-  wokwi_id:     434925031692840961       # Set this to the ID of your Wokwi project (the number from the project's URL)
+project:      # Set this to the ID of your Wokwi project (the number from the project's URL)
   title:        "demo-tiny"      # Project title
   author:       "Nikhil Garg"      # Your name
   discord:      "ng1998"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "test"      # One line description of what your project does
-  language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
+  language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
+  # name: tt_um_wokwi_434925031692840961, tt_um_lif_basic_single
+  top_module:  "tt_um_wokwi_434925031692840961"
 
-
+  source_files:
+    - "project.v"
+    - "lif_neuron_system.v"
+    - "lif_neuron.v"
+    - "lif_data_loader.v"
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
