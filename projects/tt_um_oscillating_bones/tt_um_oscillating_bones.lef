@@ -297,7 +297,7 @@ MACRO tt_um_oscillating_bones
     USE GROUND ;
     PORT
       LAYER Metal5 ;
-        RECT 6.000 0.000 8.000 310.000 ;
+        RECT 5.900 0.000 8.100 310.000 ;
     END
   END VGND
   PIN VDPWR
@@ -305,7 +305,7 @@ MACRO tt_um_oscillating_bones
     USE POWER ;
     PORT
       LAYER Metal5 ;
-        RECT 10.000 0.000 12.000 310.000 ;
+        RECT 9.900 0.000 12.100 310.000 ;
     END
   END VDPWR
   OBS
@@ -363,8 +363,8 @@ MACRO tt_um_oscillating_bones
         RECT 179.880 312.530 183.000 312.875 ;
         RECT 183.720 312.530 185.650 312.875 ;
         RECT 6.550 310.210 185.650 312.530 ;
-        RECT 8.210 59.235 9.790 310.210 ;
-        RECT 12.210 59.235 185.650 310.210 ;
+        RECT 8.310 59.235 9.690 310.210 ;
+        RECT 12.310 59.235 185.650 310.210 ;
       LAYER TopMetal1 ;
         RECT 28.300 59.235 185.650 223.905 ;
       LAYER TopMetal2 ;
