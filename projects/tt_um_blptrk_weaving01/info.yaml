@@ -1,6 +1,6 @@
 # Tiny Tapeout project information
 project:
-  title:        "imagetester"      # Project title
+  title:        "weaving in silicon #1"      # Project title
   author:       "bleeptrack"      # Your name
   discord:      "bleeptrack"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "Imagine the norns would weave in silicon"      # One line description of what your project does
