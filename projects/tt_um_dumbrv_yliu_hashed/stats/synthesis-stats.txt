@@ -1,0 +1,48 @@
+182. Printing statistics.
+
+=== tt_um_dumbrv_yliu_hashed ===
+
+   Number of wires:               6908
+   Number of wire bits:           6943
+   Number of public wires:         894
+   Number of public wire bits:     929
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               6510
+     sg13g2_a21o_1                 119
+     sg13g2_a21oi_1                871
+     sg13g2_a221oi_1               171
+     sg13g2_a22oi_1                578
+     sg13g2_and2_1                 117
+     sg13g2_and3_1                  23
+     sg13g2_and4_1                  24
+     sg13g2_buf_1                    4
+     sg13g2_dfrbp_1                414
+     sg13g2_dlhq_1                 480
+     sg13g2_inv_1                  235
+     sg13g2_mux2_1                 103
+     sg13g2_mux4_1                   8
+     sg13g2_nand2_1                622
+     sg13g2_nand2b_1               130
+     sg13g2_nand3_1                181
+     sg13g2_nand3b_1                13
+     sg13g2_nand4_1                131
+     sg13g2_nor2_1                 687
+     sg13g2_nor2b_1                 76
+     sg13g2_nor3_1                 154
+     sg13g2_nor4_1                  78
+     sg13g2_o21ai_1                580
+     sg13g2_or2_1                   60
+     sg13g2_or3_1                    9
+     sg13g2_or4_1                    7
+     sg13g2_tiehi                  326
+     sg13g2_tielo                    4
+     sg13g2_xnor2_1                194
+     sg13g2_xor2_1                 111
+
+   Chip area for module '\tt_um_dumbrv_yliu_hashed': 87377.799600
+     of which used for sequential elements: 19530.201600 (22.35%)
+
