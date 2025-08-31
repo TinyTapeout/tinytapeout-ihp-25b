@@ -1,0 +1,10 @@
+{
+  "app": "Tiny Tapeout ttihp25b 68e2a499",
+  "repo": "https://github.com/NatSavoia/lif_neuron_Nathan",
+  "commit": "4effffc1234e9c2550fbba62405c050bb3e1bcf1",
+  "workflow_url": "https://github.com/NatSavoia/lif_neuron_Nathan/actions/runs/17327590307",
+  "sort_id": 1756667717204,
+  "openlane_version": "OpenLane2 3.0.0.dev23",
+  "pdk_name": "IHP-Open-PDK",
+  "pdk_version": "IHP-Open-PDK 0335431f16206e4f542d6118549125d45a1f8977"
+}
