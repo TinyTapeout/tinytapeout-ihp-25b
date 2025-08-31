@@ -1,0 +1,46 @@
+143. Printing statistics.
+
+=== tt_um_iz_neuron ===
+
+   Number of wires:               3114
+   Number of wire bits:           3149
+   Number of public wires:          86
+   Number of public wire bits:     121
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               3052
+     sg13g2_a21o_1                  82
+     sg13g2_a21oi_1                263
+     sg13g2_a221oi_1                18
+     sg13g2_a22oi_1                 80
+     sg13g2_and2_1                  80
+     sg13g2_and3_1                  19
+     sg13g2_and4_1                  37
+     sg13g2_buf_1                    2
+     sg13g2_dfrbp_1                 78
+     sg13g2_inv_1                  111
+     sg13g2_mux2_1                   6
+     sg13g2_nand2_1                361
+     sg13g2_nand2b_1               135
+     sg13g2_nand3_1                 89
+     sg13g2_nand3b_1                 5
+     sg13g2_nand4_1                 14
+     sg13g2_nor2_1                 204
+     sg13g2_nor2b_1                105
+     sg13g2_nor3_1                  96
+     sg13g2_nor4_1                  23
+     sg13g2_o21ai_1                329
+     sg13g2_or2_1                   55
+     sg13g2_or3_1                   22
+     sg13g2_or4_1                   16
+     sg13g2_tiehi                   83
+     sg13g2_tielo                    9
+     sg13g2_xnor2_1                468
+     sg13g2_xor2_1                 262
+
+   Chip area for module '\tt_um_iz_neuron': 34149.427200
+     of which used for sequential elements: 3679.603200 (10.78%)
+
