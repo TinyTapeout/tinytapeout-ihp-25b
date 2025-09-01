@@ -2,40 +2,42 @@
 
 === tt_um_ds_comp_adc ===
 
-   Number of wires:               1589
-   Number of wire bits:           1624
-   Number of public wires:         319
-   Number of public wire bits:     354
+   Number of wires:               2147
+   Number of wire bits:           2182
+   Number of public wires:         423
+   Number of public wire bits:     458
    Number of ports:                  8
    Number of port bits:             43
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
-   Number of cells:               1296
-     sg13g2_a21o_1                  23
-     sg13g2_a21oi_1                106
-     sg13g2_a221oi_1                14
-     sg13g2_a22oi_1                 39
-     sg13g2_and2_1                  26
+   Number of cells:               1750
+     sg13g2_a21o_1                  20
+     sg13g2_a21oi_1                144
+     sg13g2_a221oi_1                20
+     sg13g2_a22oi_1                 37
+     sg13g2_and2_1                  30
+     sg13g2_and3_1                   2
      sg13g2_buf_1                    8
-     sg13g2_dfrbp_1                309
-     sg13g2_inv_1                   60
-     sg13g2_mux2_1                 115
-     sg13g2_nand2_1                 68
-     sg13g2_nand2b_1                50
-     sg13g2_nand3_1                 18
+     sg13g2_dfrbp_1                413
+     sg13g2_inv_1                   61
+     sg13g2_mux2_1                 171
+     sg13g2_nand2_1                 86
+     sg13g2_nand2b_1                93
+     sg13g2_nand3_1                 16
      sg13g2_nand3b_1                 2
-     sg13g2_nand4_1                  5
-     sg13g2_nor2_1                 113
-     sg13g2_nor2b_1                 52
-     sg13g2_nor3_1                   7
-     sg13g2_o21ai_1                 82
-     sg13g2_or2_1                    7
-     sg13g2_or3_1                    3
+     sg13g2_nand4_1                 11
+     sg13g2_nor2_1                 154
+     sg13g2_nor2b_1                 72
+     sg13g2_nor3_1                   4
+     sg13g2_nor4_1                   6
+     sg13g2_o21ai_1                108
+     sg13g2_or2_1                   15
+     sg13g2_or4_1                    1
      sg13g2_tielo                   16
-     sg13g2_xnor2_1                108
-     sg13g2_xor2_1                  65
+     sg13g2_xnor2_1                158
+     sg13g2_xor2_1                 102
 
-   Chip area for module '\tt_um_ds_comp_adc': 25182.397800
-     of which used for sequential elements: 14576.889600 (57.89%)
+   Chip area for module '\tt_um_ds_comp_adc': 34176.454200
+     of which used for sequential elements: 19483.027200 (57.01%)
 
