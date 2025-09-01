@@ -100,7 +100,6 @@ MACRO tt_um_test_chip_pius
   PIN ui_in[2]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.180700 ;
     PORT
       LAYER Metal5 ;
         RECT 171.690 153.980 171.990 154.980 ;
@@ -109,7 +108,6 @@ MACRO tt_um_test_chip_pius
   PIN ui_in[3]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.180700 ;
     PORT
       LAYER Metal5 ;
         RECT 167.850 153.980 168.150 154.980 ;
@@ -118,7 +116,6 @@ MACRO tt_um_test_chip_pius
   PIN ui_in[4]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.180700 ;
     PORT
       LAYER Metal5 ;
         RECT 164.010 153.980 164.310 154.980 ;
@@ -127,7 +124,6 @@ MACRO tt_um_test_chip_pius
   PIN ui_in[5]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.180700 ;
     PORT
       LAYER Metal5 ;
         RECT 160.170 153.980 160.470 154.980 ;
@@ -136,7 +132,6 @@ MACRO tt_um_test_chip_pius
   PIN ui_in[6]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.180700 ;
     PORT
       LAYER Metal5 ;
         RECT 156.330 153.980 156.630 154.980 ;
@@ -145,7 +140,6 @@ MACRO tt_um_test_chip_pius
   PIN ui_in[7]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.180700 ;
     PORT
       LAYER Metal5 ;
         RECT 152.490 153.980 152.790 154.980 ;
@@ -154,7 +148,6 @@ MACRO tt_um_test_chip_pius
   PIN uio_in[0]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.180700 ;
     PORT
       LAYER Metal5 ;
         RECT 148.650 153.980 148.950 154.980 ;
@@ -163,7 +156,6 @@ MACRO tt_um_test_chip_pius
   PIN uio_in[1]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.180700 ;
     PORT
       LAYER Metal5 ;
         RECT 144.810 153.980 145.110 154.980 ;
@@ -172,7 +164,6 @@ MACRO tt_um_test_chip_pius
   PIN uio_in[2]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.180700 ;
     PORT
       LAYER Metal5 ;
         RECT 140.970 153.980 141.270 154.980 ;
@@ -181,7 +172,6 @@ MACRO tt_um_test_chip_pius
   PIN uio_in[3]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.180700 ;
     PORT
       LAYER Metal5 ;
         RECT 137.130 153.980 137.430 154.980 ;
@@ -190,7 +180,6 @@ MACRO tt_um_test_chip_pius
   PIN uio_in[4]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.180700 ;
     PORT
       LAYER Metal5 ;
         RECT 133.290 153.980 133.590 154.980 ;
@@ -199,7 +188,6 @@ MACRO tt_um_test_chip_pius
   PIN uio_in[5]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.180700 ;
     PORT
       LAYER Metal5 ;
         RECT 129.450 153.980 129.750 154.980 ;
@@ -208,7 +196,6 @@ MACRO tt_um_test_chip_pius
   PIN uio_in[6]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.180700 ;
     PORT
       LAYER Metal5 ;
         RECT 125.610 153.980 125.910 154.980 ;
@@ -217,7 +204,6 @@ MACRO tt_um_test_chip_pius
   PIN uio_in[7]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.180700 ;
     PORT
       LAYER Metal5 ;
         RECT 121.770 153.980 122.070 154.980 ;
@@ -370,7 +356,7 @@ MACRO tt_um_test_chip_pius
   PIN uo_out[0]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.706400 ;
+    ANTENNADIFFAREA 0.649200 ;
     PORT
       LAYER Metal5 ;
         RECT 117.930 153.980 118.230 154.980 ;
@@ -379,7 +365,7 @@ MACRO tt_um_test_chip_pius
   PIN uo_out[1]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.706400 ;
+    ANTENNADIFFAREA 0.299200 ;
     PORT
       LAYER Metal5 ;
         RECT 114.090 153.980 114.390 154.980 ;
@@ -388,7 +374,7 @@ MACRO tt_um_test_chip_pius
   PIN uo_out[2]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.706400 ;
+    ANTENNADIFFAREA 0.299200 ;
     PORT
       LAYER Metal5 ;
         RECT 110.250 153.980 110.550 154.980 ;
@@ -397,7 +383,7 @@ MACRO tt_um_test_chip_pius
   PIN uo_out[3]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.733200 ;
+    ANTENNADIFFAREA 0.299200 ;
     PORT
       LAYER Metal5 ;
         RECT 106.410 153.980 106.710 154.980 ;
@@ -406,7 +392,7 @@ MACRO tt_um_test_chip_pius
   PIN uo_out[4]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.733200 ;
+    ANTENNADIFFAREA 0.299200 ;
     PORT
       LAYER Metal5 ;
         RECT 102.570 153.980 102.870 154.980 ;
@@ -415,7 +401,7 @@ MACRO tt_um_test_chip_pius
   PIN uo_out[5]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.733200 ;
+    ANTENNADIFFAREA 0.299200 ;
     PORT
       LAYER Metal5 ;
         RECT 98.730 153.980 99.030 154.980 ;
@@ -424,7 +410,7 @@ MACRO tt_um_test_chip_pius
   PIN uo_out[6]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.733200 ;
+    ANTENNADIFFAREA 0.299200 ;
     PORT
       LAYER Metal5 ;
         RECT 94.890 153.980 95.190 154.980 ;
@@ -433,7 +419,7 @@ MACRO tt_um_test_chip_pius
   PIN uo_out[7]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.733200 ;
+    ANTENNADIFFAREA 0.299200 ;
     PORT
       LAYER Metal5 ;
         RECT 91.050 153.980 91.350 154.980 ;
@@ -447,9 +433,9 @@ MACRO tt_um_test_chip_pius
       LAYER Metal2 ;
         RECT 15.515 3.680 181.105 151.300 ;
       LAYER Metal3 ;
-        RECT 15.560 3.635 181.060 153.025 ;
+        RECT 15.560 3.635 181.060 154.705 ;
       LAYER Metal4 ;
-        RECT 15.515 3.680 181.105 152.980 ;
+        RECT 15.515 3.680 181.105 154.660 ;
       LAYER Metal5 ;
         RECT 30.120 153.770 33.240 153.980 ;
         RECT 33.960 153.770 37.080 153.980 ;
@@ -491,15 +477,15 @@ MACRO tt_um_test_chip_pius
         RECT 172.200 153.770 175.320 153.980 ;
         RECT 176.040 153.770 179.160 153.980 ;
         RECT 29.660 151.630 179.620 153.770 ;
-        RECT 29.660 143.495 54.040 151.630 ;
-        RECT 56.660 143.495 60.240 151.630 ;
-        RECT 62.860 143.495 92.910 151.630 ;
-        RECT 95.530 143.495 99.110 151.630 ;
-        RECT 101.730 143.495 131.780 151.630 ;
-        RECT 134.400 143.495 137.980 151.630 ;
-        RECT 140.600 143.495 170.650 151.630 ;
-        RECT 173.270 143.495 176.850 151.630 ;
-        RECT 179.470 143.495 179.620 151.630 ;
+        RECT 29.660 148.115 54.040 151.630 ;
+        RECT 56.660 148.115 60.240 151.630 ;
+        RECT 62.860 148.115 92.910 151.630 ;
+        RECT 95.530 148.115 99.110 151.630 ;
+        RECT 101.730 148.115 131.780 151.630 ;
+        RECT 134.400 148.115 137.980 151.630 ;
+        RECT 140.600 148.115 170.650 151.630 ;
+        RECT 173.270 148.115 176.850 151.630 ;
+        RECT 179.470 148.115 179.620 151.630 ;
   END
 END tt_um_test_chip_pius
 END LIBRARY
