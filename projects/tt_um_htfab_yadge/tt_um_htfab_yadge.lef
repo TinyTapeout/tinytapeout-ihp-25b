@@ -356,7 +356,7 @@ MACRO tt_um_htfab_yadge
     USE GROUND ;
     PORT
       LAYER Metal5 ;
-        RECT 16.000 0.000 18.200 152.980 ;
+        RECT 195.880 0.000 198.080 154.980 ;
     END
   END VGND
   PIN VPWR
@@ -364,44 +364,12 @@ MACRO tt_um_htfab_yadge
     USE POWER ;
     PORT
       LAYER Metal5 ;
-        RECT 20.000 0.000 22.200 152.980 ;
+        RECT 199.880 0.000 202.080 154.980 ;
     END
   END VPWR
   OBS
       LAYER TopMetal1 ;
-        RECT 0.000 148.000 202.080 154.980 ;
-      LAYER TopMetal1 ;
-        RECT 0.000 146.000 202.080 148.000 ;
-      LAYER TopMetal1 ;
-        RECT 0.000 129.000 202.080 146.000 ;
-      LAYER TopMetal1 ;
-        RECT 0.000 127.000 202.080 129.000 ;
-      LAYER TopMetal1 ;
-        RECT 0.000 108.000 202.080 127.000 ;
-      LAYER TopMetal1 ;
-        RECT 0.000 106.000 202.080 108.000 ;
-      LAYER TopMetal1 ;
-        RECT 0.000 89.000 202.080 106.000 ;
-      LAYER TopMetal1 ;
-        RECT 0.000 87.000 202.080 89.000 ;
-      LAYER TopMetal1 ;
-        RECT 0.000 68.000 202.080 87.000 ;
-      LAYER TopMetal1 ;
-        RECT 0.000 66.000 202.080 68.000 ;
-      LAYER TopMetal1 ;
-        RECT 0.000 49.000 202.080 66.000 ;
-      LAYER TopMetal1 ;
-        RECT 0.000 47.000 202.080 49.000 ;
-      LAYER TopMetal1 ;
-        RECT 0.000 28.000 202.080 47.000 ;
-      LAYER TopMetal1 ;
-        RECT 0.000 26.000 202.080 28.000 ;
-      LAYER TopMetal1 ;
-        RECT 0.000 9.000 202.080 26.000 ;
-      LAYER TopMetal1 ;
-        RECT 0.000 7.000 202.080 9.000 ;
-      LAYER TopMetal1 ;
-        RECT 0.000 0.000 202.080 7.000 ;
+        RECT 0.000 0.000 194.000 154.980 ;
   END
 END tt_um_htfab_yadge
 END LIBRARY
