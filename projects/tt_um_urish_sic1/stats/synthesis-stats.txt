@@ -1,0 +1,46 @@
+143. Printing statistics.
+
+=== tt_um_urish_sic1 ===
+
+   Number of wires:              11490
+   Number of wire bits:          11525
+   Number of public wires:        2103
+   Number of public wire bits:    2138
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               9404
+     sg13g2_a21o_1                  20
+     sg13g2_a21oi_1                728
+     sg13g2_a221oi_1               222
+     sg13g2_a22oi_1                 55
+     sg13g2_and2_1                  58
+     sg13g2_and3_1                   9
+     sg13g2_buf_1                    2
+     sg13g2_dfrbp_1               2102
+     sg13g2_inv_1                   83
+     sg13g2_mux2_1                2210
+     sg13g2_mux4_1                 208
+     sg13g2_nand2_1                353
+     sg13g2_nand2b_1               235
+     sg13g2_nand3_1                 70
+     sg13g2_nand3b_1                 3
+     sg13g2_nand4_1                  3
+     sg13g2_nor2_1                 231
+     sg13g2_nor2b_1                195
+     sg13g2_nor3_1                  82
+     sg13g2_nor4_1                   4
+     sg13g2_o21ai_1                372
+     sg13g2_or2_1                   12
+     sg13g2_or3_1                   10
+     sg13g2_or4_1                    1
+     sg13g2_tiehi                 2104
+     sg13g2_tielo                   12
+     sg13g2_xnor2_1                 15
+     sg13g2_xor2_1                   5
+
+   Chip area for module '\tt_um_urish_sic1': 187873.597800
+     of which used for sequential elements: 99160.588800 (52.78%)
+
