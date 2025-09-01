@@ -1,11 +1,3 @@
-<!---
-This file is used to generate your project datasheet. Please fill in the information below and delete any unused
-sections.
-
-You can also include images in this folder and reference them in the markdown. Each image must be less than
-512 kb in size, and the combined size of all images must be less than 1 MB.
--->
-
 ## 🧠 AdEx Spiking Neuron Core
 
 This project is a digital hardware implementation of the Adaptive Exponential (AdEx) Integrate-and-Fire neuron model. It's designed to run on an ASIC, simulating the behavior of a biological neuron, including its membrane potential and adaptation mechanisms. The core is highly configurable, allowing it to model various neural firing patterns like regular spiking, bursting, and fast spiking.
@@ -16,7 +8,7 @@ The system operates based on two primary components: the **Neuron Core** and the
 
 ### 1. The Neuron Core
 
-The core solves two coupled differential equations in real-time using Q4.12 fixed-point arithmetic. These equations govern the neuron's two main state variables:
+The core solves two coupled differential equations in real-time using Q4.8 fixed-point arithmetic. These equations govern the neuron's two main state variables:
 
 *   **V:** The membrane potential, which simulates the voltage across the neuron's cell membrane.
 *   **w:** The adaptation current, which models cellular fatigue and is responsible for spike-frequency adaptation.
@@ -59,8 +51,8 @@ Each 8-bit parameter is sent as two 4-bit nibbles (high nibble first). After all
 ### Inputs and Outputs
 
 *   **Inputs**:
-    *   `ui_in[6]` (`clk`): Main clock signal.
-    *   `ui_in[5]` (`reset`): Active-high reset.
+    *   `clk`: Main clock signal.
+    *   `rst_n`: Active-low reset.
     *   `ui_in[4]` (`load_mode`): Set to `1` to enable the parameter loader.
     *   `ui_in[3]` (`load_enable`): Pulse high to load a 4-bit nibble from `uio_in`.
     *   `ui_in[2]` (`enable_core`): Set to `1` to run the neuron simulation.
