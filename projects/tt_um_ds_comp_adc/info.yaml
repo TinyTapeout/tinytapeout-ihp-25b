@@ -1,0 +1,58 @@
+# Tiny Tapeout project information
+project:
+  title:        "Delta Sigma Comparator Based ADC"
+  author:       "Pawel Kozlowski"
+  discord:      "Newbie1028u90"
+  description:  "Evaluating the feasibility of implementing a delta-sigma analog-to-digital conversion using two switched-capacitor lines. One line serves as a reference, while the other is intended for current measurement, such as from a photodiode. The project also explores how process, voltage, and temperature (PVT) variations affect flip-flop behavior, whether these effects can be mitigated through the reference channel, and what additional insights or phenomena may emerge from this investigation."      
+  language:     "Verilog" 
+  clock_hz:     10000000  
+
+  # How many tiles your design occupies? A single tile is about 167x108 uM.
+  tiles: "1x2"          # Valid values: 1x2 , 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
+
+  # Your top module name must start with "tt_um_". Make it unique by including your github username:
+  top_module:  "tt_um_ds_comp_adc"
+
+  # List your project's source files here.
+  # Source files must be in ./src and you must list each source file separately, one per line.
+  # Don't forget to also update `PROJECT_SOURCES` in test/Makefile.
+  source_files:
+    - "project.v"
+    - "pulse_triggered_serialiser.v"
+    - "cic_filter_generic.v"
+
+# The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
+# This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
+pinout:
+  # Inputs
+  ui[0]: "Capacitor a input port"
+  ui[1]: "Capacitor b input port"
+  ui[2]: ""
+  ui[3]: ""
+  ui[4]: ""
+  ui[5]: ""
+  ui[6]: ""
+  ui[7]: "Data triggger for adc data streaming. Asserting it causes filtered_a, filtered_b and filtered_ab_subtr to be serialised and sent."
+
+  # Outputs
+  uo[0]: "pdm_a - pulse density modulated signal connected to capacitor a"
+  uo[1]: "pdm_b - pulse density modulated signal connected to capacitor a"
+  uo[2]: "filtered_a - 13 bit value of a line after summing (13 to avoid overflow)"
+  uo[3]: "filtered_b - 13 bit value of b line after summing"
+  uo[4]: "filtered_ab_subtr represents the difference between the 'a' and 'b' lines after summation (i.e., a - b). The direction of current flow (or polarity), which determines how each capacitor is connected to the respective UI input, must align with this formula to prevent overflow or incorrect charge accumulation."
+  uo[5]: "filtered_a valid signal saying that from this bit on the user can expect the integrated value from the first capacitor line"
+  uo[6]: "filtered_b valid signal saying that from this bit on the user can expect the integrated value from the second capacitor line"
+  uo[7]: "filtered_ab_subtr valid signal saying that from this bit on one can expect the difference between the vaules (effectively the ADC code)"
+
+  # Bidirectional pins
+  uio[0]: ""
+  uio[1]: ""
+  uio[2]: ""
+  uio[3]: ""
+  uio[4]: ""
+  uio[5]: ""
+  uio[6]: ""
+  uio[7]: ""
+
+# Do not change!
+yaml_version: 6
