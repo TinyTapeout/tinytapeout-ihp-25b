@@ -27,13 +27,19 @@ These command values are sent over SPI to control the PWM peripheral:
 | `8'd6`          | Disable PWM output       |
 | `8'd7`          | Enable PWM output        |
 
-For operations other than `ENABLE_PWM` and `DISABLE_PWM`, the SPI command must be followed by **four data bytes**. These bytes represent the value to be written into the selected register (e.g., Compare Value, Prescaler, or Duty Cycle). The data is transmitted **least significant byte (LSB) first**, so the first byte on the SPI bus corresponds to bits `[7:0]` of the value, the second byte to bits `[15:8]`, and so on, up to the most significant byte. 
+For operations other than `ENABLE_PWM` and `DISABLE_PWM`, the SPI command must be followed by **four data bytes**. These bytes represent the value to be written into the selected register (e.g., Compare Value, Prescaler, or Duty Cycle). The data is transmitted **least significant byte (LSB) first**, so the first byte on the SPI bus corresponds to bits `[7:0]` of the value, the second byte to bits `[15:8]`, and so on, up to the most significant byte.
 
+The SPI slave has a clock polarity of zero and clock phase of zero, CPOL=0 and CPHA=0.
+
+Override pins are present to test the functionality of the PWM module without having to use the SPI. When driven high, the pins set the counter value, prescaler, duty cycles, and enable signal of the PWM directly to a preset value. When all override pins are driven the output signal should be 10kHz 50% duty cycle on all 3 PWM output pins when ran at 25MHz.
+
+There are two input pins that set the output of a uio output pin to 0, 1, and Z. This is just to test functionality of tristating in tinytapeout.
 
 ---
 
 ## How to test
 
+Program counter value, and duty cycle registers over SPI by sending the proper command byte followed by 4 bytes to set the value of the register. Then send the enable pwm command byte to start the SPI. Outputs 3 to 7 indicate that the registers value is non zero. Bidirectional output 0 shows if the enable register is non zero. Or use the override pins present on the ui_in to test just the PWM.
 
 
 ## External hardware

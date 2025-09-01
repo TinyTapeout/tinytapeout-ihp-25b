@@ -19,37 +19,37 @@ project:
   source_files:
     - "tt_um_pwm_block.v"
     - "pwm.v"
-    - "MemoryManager.v"
+    - "RegisterFiles.v"
     - "SPI_Slave.v"
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "Sets Value of uio_out0"
+  ui[1]: "High Z on uio_out0 - 1 for Z"
+  ui[2]: "CV_override"
+  ui[3]: "PS_override"
+  ui[4]: "DC1_override"
+  ui[5]: "DC2_override"
+  ui[6]: "DC3_override"
+  ui[7]: "EN_override"
 
   # Outputs
   uo[0]: "pwm_0"
   uo[1]: "pwm_1"
   uo[2]: "pwm_2"
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[3]: "CV_nonZero"
+  uo[4]: "PS_nonZero"
+  uo[5]: "DC1_nonZero"
+  uo[6]: "DC2_nonZero"
+  uo[7]: "DC3_nonZero"
 
   # Bidirectional pins
-  uio[0]: ""
+  uio[0]: "EN_nonZero"
   uio[1]: ""
   uio[2]: ""
-  uio[3]: ""
+  uio[3]: "High Z test Pin"
   uio[4]: "spi_clk"
   uio[5]: "miso"
   uio[6]: "mosi"
