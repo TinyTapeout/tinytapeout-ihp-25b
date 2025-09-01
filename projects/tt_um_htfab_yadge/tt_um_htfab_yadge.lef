@@ -356,7 +356,7 @@ MACRO tt_um_htfab_yadge
     USE GROUND ;
     PORT
       LAYER Metal5 ;
-        RECT 195.880 0.000 198.080 154.980 ;
+        RECT 195.880 0.000 198.080 152.980 ;
     END
   END VGND
   PIN VPWR
@@ -364,12 +364,12 @@ MACRO tt_um_htfab_yadge
     USE POWER ;
     PORT
       LAYER Metal5 ;
-        RECT 199.880 0.000 202.080 154.980 ;
+        RECT 199.880 0.000 202.080 152.980 ;
     END
   END VPWR
   OBS
       LAYER TopMetal1 ;
-        RECT 0.000 0.000 194.000 154.980 ;
+        RECT 0.000 0.000 194.000 152.980 ;
   END
 END tt_um_htfab_yadge
 END LIBRARY
