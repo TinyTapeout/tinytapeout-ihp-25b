@@ -21,7 +21,6 @@ project:
   source_files:        
     - "project.v"
     - "adex_neuron_system_tt_lut16.v"
-    - "adex_neuron_system_tt_lut32.v"
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
