@@ -1,0 +1,67 @@
+# Tiny Tapeout project information
+project:
+  title:        "AdExp DPI Neuron "      # Project title
+  author:       "Saptarshi Ghosh"      # Your name
+  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "Adaptive Exponential Integrate-and-Fire Neuron "      # One line description of what your project does
+  language:     "Verilog" # other examples include Verilog, Amaranth, VHDL, etc
+  clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
+
+  # How many tiles your design occupies? A single tile is about 200x150 uM.
+  tiles: "1x2"          # Valid values for analog projects: 1x2, 1x2, 2x2
+
+  # How many analog pins does your project use?
+  analog_pins: 0        # Valid values: 0 to 6
+  uses_3v3: false       # Keep false for this shuttle
+
+  # Your top module name must start with "tt_um_". Make it unique by including your github username:
+  top_module:  "tt_um_dpi_adexp"
+
+  # List your project's source files here. Source files must be in ./src and you must list each source file separately, one per line:
+  source_files:        
+    - "project.v"
+    - "adex_neuron_system_tt_lut16.v"
+    - "adex_neuron_system_tt_lut32.v"
+
+# The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
+pinout:
+  # Inputs (ui_in[7:0]) - These are dedicated user inputs for controlling the core.
+  ui[0]: ""                  # Not used
+  ui[1]: "debug_mode"        # Set to 1 to output 'w' instead of 'V' on debug pins
+  ui[2]: "enable_core"       # Set to 1 to run the neuron simulation
+  ui[3]: "load_enable"       # Pulse high to load a 4-bit nibble from uio_in
+  ui[4]: "load_mode"         # Set to 1 to enable the parameter loader FSM
+  ui[5]: ""                  # Not used (harness uses a dedicated rst_n pin)
+  ui[6]: ""                  # Not used (harness uses a dedicated clk pin)
+  ui[7]: ""                  # Not used
+
+  # Outputs (uo_out[7:0]) - These are dedicated user outputs.
+  uo[0]: "spike"             # Pulses high for one cycle when the neuron fires
+  uo[1]: "debug_val[0]"      # 6-bit debug output LSB (top 6 bits of Vm or w)
+  uo[2]: "debug_val[1]"
+  uo[3]: "debug_val[2]"
+  uo[4]: "debug_val[3]"
+  uo[5]: "debug_val[4]"
+  uo[6]: "debug_val[5]"      # 6-bit debug output MSB (top 6 bits of Vm or w)
+  uo[7]: ""                  # Not used
+
+  # Bidirectional pins (uio[7:0]) - Used as inputs for parameter loading.
+  uio[0]: "param_nibble_in[0]" # LSB of 4-bit data for loader
+  uio[1]: "param_nibble_in[1]"
+  uio[2]: "param_nibble_in[2]"
+  uio[3]: "param_nibble_in[3]" # MSB of 4-bit data for loader
+  uio[4]: ""                  # Not used
+  uio[5]: ""                  # Not used
+  uio[6]: ""                  # Not used
+  uio[7]: ""                  # Not used
+
+  # Analog pins - unused for digital-only neuron core
+  ua[0]: ""
+  ua[1]: ""
+  ua[2]: ""
+  ua[3]: ""
+  ua[4]: ""
+  ua[5]: ""
+
+# Do not change!
+yaml_version: 6

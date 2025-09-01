@@ -1,0 +1,46 @@
+168. Printing statistics.
+
+=== tt_um_dpi_adexp ===
+
+   Number of wires:               3000
+   Number of wire bits:           3035
+   Number of public wires:         264
+   Number of public wire bits:     299
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               2760
+     sg13g2_a21o_1                  58
+     sg13g2_a21oi_1                310
+     sg13g2_a221oi_1                18
+     sg13g2_a22oi_1                 61
+     sg13g2_and2_1                  62
+     sg13g2_and3_1                  16
+     sg13g2_and4_1                   9
+     sg13g2_buf_1                    4
+     sg13g2_dfrbp_1                256
+     sg13g2_inv_1                  185
+     sg13g2_mux2_1                  41
+     sg13g2_nand2_1                238
+     sg13g2_nand2b_1                46
+     sg13g2_nand3_1                 54
+     sg13g2_nand3b_1                14
+     sg13g2_nand4_1                 17
+     sg13g2_nor2_1                 232
+     sg13g2_nor2b_1                 38
+     sg13g2_nor3_1                  41
+     sg13g2_nor4_1                  18
+     sg13g2_o21ai_1                376
+     sg13g2_or2_1                   35
+     sg13g2_or3_1                   21
+     sg13g2_or4_1                    5
+     sg13g2_tiehi                  256
+     sg13g2_tielo                   17
+     sg13g2_xnor2_1                233
+     sg13g2_xor2_1                  99
+
+   Chip area for module '\tt_um_dpi_adexp': 35686.942200
+     of which used for sequential elements: 12076.646400 (33.84%)
+
