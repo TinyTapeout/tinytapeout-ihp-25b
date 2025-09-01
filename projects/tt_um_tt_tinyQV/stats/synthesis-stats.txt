@@ -2,8 +2,8 @@
 
 === tt_um_tt_tinyQV ===
 
-   Number of wires:              36655
-   Number of wire bits:          36690
+   Number of wires:              36695
+   Number of wire bits:          36730
    Number of public wires:        5250
    Number of public wire bits:    5285
    Number of ports:                  8
@@ -11,39 +11,39 @@
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
-   Number of cells:              31948
-     sg13g2_a21o_1                 366
-     sg13g2_a21oi_1               3419
-     sg13g2_a221oi_1               487
-     sg13g2_a22oi_1               1626
-     sg13g2_and2_1                 549
-     sg13g2_and3_1                 114
+   Number of cells:              31988
+     sg13g2_a21o_1                 347
+     sg13g2_a21oi_1               3444
+     sg13g2_a221oi_1               537
+     sg13g2_a22oi_1               1540
+     sg13g2_and2_1                 546
+     sg13g2_and3_1                 115
      sg13g2_and4_1                  51
      sg13g2_buf_1                   11
      sg13g2_dfrbp_1               4723
      sg13g2_dlhq_1                 421
-     sg13g2_inv_1                 1217
-     sg13g2_mux2_1                 718
-     sg13g2_mux4_1                 123
-     sg13g2_nand2_1               2560
-     sg13g2_nand2b_1               596
-     sg13g2_nand3_1                807
-     sg13g2_nand3b_1                72
-     sg13g2_nand4_1                362
-     sg13g2_nor2_1                2646
-     sg13g2_nor2b_1                518
-     sg13g2_nor3_1                 798
-     sg13g2_nor4_1                 270
-     sg13g2_o21ai_1               3807
-     sg13g2_or2_1                  238
+     sg13g2_inv_1                 1245
+     sg13g2_mux2_1                 711
+     sg13g2_mux4_1                 130
+     sg13g2_nand2_1               2636
+     sg13g2_nand2b_1               544
+     sg13g2_nand3_1                739
+     sg13g2_nand3b_1                75
+     sg13g2_nand4_1                369
+     sg13g2_nor2_1                2571
+     sg13g2_nor2b_1                509
+     sg13g2_nor3_1                 783
+     sg13g2_nor4_1                 274
+     sg13g2_o21ai_1               3955
+     sg13g2_or2_1                  245
      sg13g2_or2_2                    5
-     sg13g2_or3_1                   62
-     sg13g2_or4_1                   41
+     sg13g2_or3_1                   60
+     sg13g2_or4_1                   35
      sg13g2_tiehi                 4195
      sg13g2_tielo                   11
-     sg13g2_xnor2_1                723
-     sg13g2_xor2_1                 412
+     sg13g2_xnor2_1                777
+     sg13g2_xor2_1                 384
 
-   Chip area for module '\tt_um_tt_tinyQV': 483129.586800
-     of which used for sequential elements: 222804.691200 (46.12%)
+   Chip area for module '\tt_um_tt_tinyQV': 483715.260000
+     of which used for sequential elements: 222804.691200 (46.06%)
 
