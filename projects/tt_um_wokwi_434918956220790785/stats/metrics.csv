@@ -106,8 +106,8 @@ design__instance__count__class:multi_input_combinational_cell,23
 design__instance__area__class:multi_input_combinational_cell,188.698
 flow__warnings__count,1
 flow__errors__count,0
-design__power_grid_violation__count__net:VGND,0
 design__power_grid_violation__count__net:VPWR,0
+design__power_grid_violation__count__net:VGND,0
 design__power_grid_violation__count,0
 timing__drv__floating__nets,0
 timing__drv__floating__pins,0

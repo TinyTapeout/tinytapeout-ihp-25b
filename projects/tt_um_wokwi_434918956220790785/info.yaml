@@ -1,12 +1,12 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     434918956220790785      # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        "First_simple_project"      # Project title
+  wokwi_id:     434918956220790785     # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "Simple classification perceptron "      # Project title
   author:       "ChinZhe"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "connecting inputs randomly to 7segment display"      # One line description of what your project does
+  description:  "simulation perceptron and display the result with 1 or 0"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
-  clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
+  clock_hz:      10000000        # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
@@ -16,26 +16,27 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: "IN0"
-  ui[1]: "IN1"
-  ui[2]: "IN2"
-  ui[3]: "IN3"
-  ui[4]: "IN4"
-  ui[5]: "IN5"
-  ui[6]: "IN6"
-  ui[7]: "IN7"
+  ui[0]: "x0[0]"  # ui_in[0], bit 0 of first input
+  ui[1]: "x0[1]"  # ui_in[1], bit 1 of first input
+  ui[2]: "x0[2]"  # ui_in[2], bit 2 of first input
+  ui[3]: "x0[3]"  # ui_in[3], bit 3 of first input
+  ui[4]: "x1[0]"  # ui_in[4], bit 0 of second input
+  ui[5]: "x1[1]"  # ui_in[5], bit 1 of second input
+  ui[6]: "x1[2]"  # ui_in[6], bit 2 of second input
+  ui[7]: "x1[3]"  # ui_in[7], bit 3 of second input
+
 
   # Outputs
-  uo[0]: "OUT0"
-  uo[1]: "OUT1"
-  uo[2]: "OUT2"
-  uo[3]: "OUT3"
-  uo[4]: "OUT4"
-  uo[5]: "OUT5"
-  uo[6]: "OUT6"
-  uo[7]: "OUT7"
+  uo[0]: "y_reg"  # uo_out[0], perceptron output (sign bit)
+  uo[1]: "sum[1]" # uo_out[1], sum_reg[1]
+  uo[2]: "sum[2]" # uo_out[2], sum_reg[2]
+  uo[3]: "sum[3]" # uo_out[3], sum_reg[3]
+  uo[4]: "sum[4]" # uo_out[4], sum_reg[4]
+  uo[5]: "sum[5]" # uo_out[5], sum_reg[5]
+  uo[6]: "sum[6]" # uo_out[6], sum_reg[6]
+  uo[7]: "sum[7]" # uo_out[7], sum_reg[7]
 
-  # Bidirectional pins
+  # Bidirectional pins (unused)
   uio[0]: ""
   uio[1]: ""
   uio[2]: ""
@@ -45,5 +46,5 @@ pinout:
   uio[6]: ""
   uio[7]: ""
 
-# Do not change!
+  # Do not change!
 yaml_version: 6
