@@ -1,0 +1,46 @@
+178. Printing statistics.
+
+=== tt_um_rejunity_atari2600 ===
+
+   Number of wires:              19722
+   Number of wire bits:          19757
+   Number of public wires:        2931
+   Number of public wire bits:    2966
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              16822
+     sg13g2_a21o_1                 148
+     sg13g2_a21oi_1               1825
+     sg13g2_a221oi_1               176
+     sg13g2_a22oi_1                825
+     sg13g2_and2_1                 207
+     sg13g2_and3_1                  64
+     sg13g2_and4_1                  28
+     sg13g2_buf_1                    7
+     sg13g2_dfrbp_1               2916
+     sg13g2_inv_1                  322
+     sg13g2_mux2_1                1510
+     sg13g2_mux4_1                 275
+     sg13g2_nand2_1                973
+     sg13g2_nand2b_1               254
+     sg13g2_nand3_1                327
+     sg13g2_nand3b_1                22
+     sg13g2_nand4_1                 87
+     sg13g2_nor2_1                1721
+     sg13g2_nor2b_1                154
+     sg13g2_nor3_1                 270
+     sg13g2_nor4_1                 136
+     sg13g2_o21ai_1                889
+     sg13g2_or2_1                  119
+     sg13g2_or3_1                   25
+     sg13g2_or4_1                   15
+     sg13g2_tiehi                 2915
+     sg13g2_xnor2_1                386
+     sg13g2_xor2_1                 226
+
+   Chip area for module '\tt_um_rejunity_atari2600': 281373.183000
+     of which used for sequential elements: 137560.550400 (48.89%)
+
