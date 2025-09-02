@@ -1,0 +1,10 @@
+{
+  "app": "Tiny Tapeout ttihp25b e96fa6fc",
+  "repo": "https://github.com/rejunity/tt10-lgn-mnist",
+  "commit": "cc04c56f674ef708de3d0f23d2e85ec04e704476",
+  "workflow_url": "https://github.com/rejunity/tt10-lgn-mnist/actions/runs/17394501986",
+  "sort_id": 1756802244623,
+  "openlane_version": "OpenLane2 3.0.0.dev23",
+  "pdk_name": "IHP-Open-PDK",
+  "pdk_version": "IHP-Open-PDK 0335431f16206e4f542d6118549125d45a1f8977"
+}

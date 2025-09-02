@@ -1,0 +1,57 @@
+# Tiny Tapeout project information
+project:
+  title:        "LGN hand-written digit classifier (MNIST, 16x16 pixels)"
+  author:       "Renaldas Zioma, Jogundas Armaitis"
+  discord:      "rzioma"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "Experiment with Deep Differential Logic Networks"
+  language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
+  clock_hz:     1000000       # Clock frequency in Hz (or 0 if not applicable)
+
+  # How many tiles your design occupies? A single tile is about 167x108 uM.
+  tiles: "4x4"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
+
+  # Your top module name must start with "tt_um_". Make it unique by including your github username:
+  top_module:  "tt_um_rejunity_lgn_mnist"
+
+  # List your project's source files here.
+  # Source files must be in ./src and you must list each source file separately, one per line.
+  # Don't forget to also update `PROJECT_SOURCES` in test/Makefile.
+  source_files:
+    - "popcount.v"
+    - "project.v"
+    - "net.v"
+
+# The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
+pinout:
+  # Inputs
+  ui[0]: "Shift-in 8-bit input packet (LSB)"
+  ui[1]: "Shift-in 8-bit input packet"
+  ui[2]: "Shift-in 8-bit input packet"
+  ui[3]: "Shift-in 8-bit input packet"
+  ui[4]: "Shift-in 8-bit input packet"
+  ui[5]: "Shift-in 8-bit input packet"
+  ui[6]: "Shift-in 8-bit input packet"
+  ui[7]: "Shift-in 8-bit input packet (MSB)"
+
+  # Outputs
+  uo[0]: "Digit (LSB)"
+  uo[1]: "Digit"
+  uo[2]: "Digit"
+  uo[3]: "Digit (MSB)"
+  uo[4]: ""
+  uo[5]: ""
+  uo[6]: ""
+  uo[7]: ""
+
+  # Bidirectional pins
+  uio[0]: "(out) Confidence score (LSB)"
+  uio[1]: "(out) Confidence score"
+  uio[2]: "(out) Confidence score"
+  uio[3]: "(out) Confidence score"
+  uio[4]: "(out) Confidence score"
+  uio[5]: "(out) Confidence score"
+  uio[6]: "(out) Confidence score (MSB)"
+  uio[7]: "(in) /WE - Pause input"
+
+# Do not change!
+yaml_version: 6

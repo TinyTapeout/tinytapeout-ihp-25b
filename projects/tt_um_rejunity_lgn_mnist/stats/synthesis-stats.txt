@@ -1,0 +1,46 @@
+139. Printing statistics.
+
+=== tt_um_rejunity_lgn_mnist ===
+
+   Number of wires:              10611
+   Number of wire bits:          10646
+   Number of public wires:         262
+   Number of public wire bits:     297
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              10373
+     sg13g2_a21o_1                 238
+     sg13g2_a21oi_1                684
+     sg13g2_a221oi_1                35
+     sg13g2_a22oi_1                166
+     sg13g2_and2_1                 168
+     sg13g2_and3_1                  79
+     sg13g2_and4_1                  27
+     sg13g2_buf_1                    1
+     sg13g2_dfrbp_1                254
+     sg13g2_inv_1                  406
+     sg13g2_mux2_1                 138
+     sg13g2_nand2_1               1226
+     sg13g2_nand2b_1               483
+     sg13g2_nand3_1                186
+     sg13g2_nand3b_1                19
+     sg13g2_nand4_1                 52
+     sg13g2_nor2_1                1343
+     sg13g2_nor2b_1                446
+     sg13g2_nor3_1                 166
+     sg13g2_nor4_1                  23
+     sg13g2_o21ai_1                798
+     sg13g2_or2_1                  233
+     sg13g2_or3_1                   81
+     sg13g2_or4_1                    8
+     sg13g2_tiehi                  261
+     sg13g2_tielo                    2
+     sg13g2_xnor2_1               2021
+     sg13g2_xor2_1                 829
+
+   Chip area for module '\tt_um_rejunity_lgn_mnist': 116258.662800
+     of which used for sequential elements: 11982.297600 (10.31%)
+
