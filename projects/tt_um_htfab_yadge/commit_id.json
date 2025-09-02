@@ -1,8 +1,7 @@
 {
   "app": "custom_gds action",
   "repo": "https://github.com/htfab/ttihp25b-yadge",
-  "commit": "22e479500133a30b6d451027732badd92c027722",
-  "workflow_url": "https://github.com/htfab/ttihp25b-yadge/actions/runs/17385384772",
-  "skip": true,
+  "commit": "f8456bd8741e5a82bedfd52b29b33cb786c84f0d",
+  "workflow_url": "https://github.com/htfab/ttihp25b-yadge/actions/runs/17388848198",
   "sort_id": 1756741042597
 }
