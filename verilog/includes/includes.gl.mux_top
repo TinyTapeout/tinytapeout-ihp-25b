@@ -1,4 +1,4 @@
--v $(IHP_SUBMISSION)/verilog/gl/tt_ihp_wrapper.nl.v
+-v $(FOUNDRY_SUBMISSION)/verilog/gl/tt_ihp_wrapper.nl.v
 -v $(TT_GL_VERILOG)/tt_ctrl.nl.v
 -v $(TT_GL_VERILOG)/tt_mux.nl.v
 -v $(TT_GL_VERILOG)/tt_um_chip_rom.nl.v

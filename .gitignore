@@ -8,7 +8,8 @@ datasheet.pdf
 shuttle_index.json
 shuttle_index.md
 
-ihp/
+# Auto generated foundry submission folder:
+foundry_submission/
 
 # pip-compile
 *.egg-info

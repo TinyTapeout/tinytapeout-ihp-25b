@@ -40,7 +40,7 @@ jobs:
           workflow: gds.yaml
           run_id: ${{ github.event.workflow_run.id }}
           workflow_conclusion: success
-          name: ihp_submission
+          name: foundry_submission
           path: tinytapeout-submission
 
       - name: Run DRC check
@@ -98,7 +98,7 @@ jobs:
           workflow: gds.yaml
           run_id: ${{ github.event.workflow_run.id }}
           workflow_conclusion: success
-          name: ihp_submission
+          name: foundry_submission
           path: ihp
 
       - name: Run Density check

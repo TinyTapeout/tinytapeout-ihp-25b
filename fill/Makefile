@@ -1,5 +1,5 @@
-SRC = ../ihp/gds/tt_ihp_wrapper.gds
-FINAL_GDS = ../ihp/gds/tt_ihp_wrapper_final.gds
+SRC = ../foundry_submission/gds/tt_ihp_wrapper.gds
+FINAL_GDS = ../foundry_submission/gds/tt_ihp_wrapper_final.gds
 TMP_DIR = tmp
 KLAYOUT_CMD ?= klayout
 
