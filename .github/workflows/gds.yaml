@@ -105,8 +105,8 @@ jobs:
       - name: Copy final results
         run: python ./tt/configure.py --copy-final-results
 
-      - name: Create IHP submission
-        run: python ./tt/configure.py --create-ihp-submission
+      - name: Create foundry submission directory
+        run: python ./tt/configure.py --create-foundry-submission
 
       - name: upload GDS artifact
         if: success() || failure()
@@ -148,15 +148,15 @@ jobs:
 
       - name: Rename top-level cell for IHP submission, convert to OAS
         run: |
-          python fill/rename.py ihp/gds/tt_ihp_wrapper_final.gds ihp/gds/FMD_QNC_$SHUTTLE_SLUG.gds FMD_QNC_$SHUTTLE_SLUG
-          strm2oas ihp/gds/FMD_QNC_$SHUTTLE_SLUG.gds ihp/gds/FMD_QNC_$SHUTTLE_SLUG.oas
+          python fill/rename.py foundry_submission/gds/tt_ihp_wrapper_final.gds foundry_submission/gds/FMD_QNC_$SHUTTLE_SLUG.gds FMD_QNC_$SHUTTLE_SLUG
+          strm2oas foundry_submission/gds/FMD_QNC_$SHUTTLE_SLUG.gds foundry_submission/gds/FMD_QNC_$SHUTTLE_SLUG.oas
 
-      - name: upload IHP submission directory
+      - name: upload foundry submission directory
         uses: actions/upload-artifact@v4
         if: success() || failure()
         with:
-          name: ihp_submission
-          path: ihp
+          name: foundry_submission
+          path: foundry_submission
 
       # Install iverilog, cocotb (required for GL test)
       - name: install oss-cad-suite
@@ -171,7 +171,7 @@ jobs:
           EXPECTED_REPO: ${{ github.repository }}
         run: |
           # temporary workaround for missing bits in pad_raw:
-          sed -i 's/inout \[49:0\] pad_raw/inout [63:0] pad_raw/' ../../../ihp/verilog/gl/tt_ihp_wrapper.nl.v
+          sed -i 's/inout \[49:0\] pad_raw/inout [63:0] pad_raw/' ../../../foundry_submission/verilog/gl/tt_ihp_wrapper.nl.v
 
           make clean test_mux_gl
           # make will return success even if the test fails, so check for failure in the results.xml
