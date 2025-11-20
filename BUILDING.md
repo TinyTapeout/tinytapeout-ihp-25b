@@ -36,7 +36,7 @@ python tt/configure.py --update-shuttle
 ## Harden
 
 ```bash
-nix-shell ${LIBRELANE_ROOT}/shell.nix --run "python -m librelane --pdk-root $PDK_ROOT --manual-pdk --pdk $PDK tt/rom/config_ihp.json"
+nix-shell ${LIBRELANE_ROOT}/shell.nix --run "python -m librelane --pdk-root $PDK_ROOT --manual-pdk --pdk $PDK tt/rom/config.json"
 nix-shell ${LIBRELANE_ROOT}/shell.nix --run "cd tt-multiplexer/ol2/tt_ctrl && python build.py"
 nix-shell ${LIBRELANE_ROOT}/shell.nix --run "cd tt-multiplexer/ol2/tt_mux && python build.py"
 python tt/configure.py --copy-macros
