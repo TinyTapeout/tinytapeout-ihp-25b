@@ -1,7 +1,7 @@
 -v $(USER_PROJECT_VERILOG)/rtl/tt-multiplexer/ol2/tt_top/tt_ihp_wrapper.v
 -v $(USER_PROJECT_VERILOG)/../tt/logo/tt_logo_bottom.v
--v $(USER_PROJECT_VERILOG)/../tt/ihp/tt_logo_corner.v
 -v $(USER_PROJECT_VERILOG)/../tt/logo/tt_logo_top.v
+-v $(USER_PROJECT_VERILOG)/../tt/tech/ihp-sg13g2/tt_logo_corner.v
 -v $(USER_PROJECT_VERILOG)/rtl/tt-multiplexer/rtl/tt_top.v
 -v $(USER_PROJECT_VERILOG)/rtl/tt-multiplexer/rtl/tt_ctrl.v
 -v $(USER_PROJECT_VERILOG)/rtl/tt-multiplexer/rtl/tt_ihp_gpio.v
