@@ -27,7 +27,7 @@ pinout:
   ui[0]: "data_in[0]"
   ui[1]: "data_in[1]"
   ui[2]: "data_in[2]"
-  ui[3]: "rst_"
+  ui[3]: "rst\\_"
   ui[4]: "ld_cnt"
   ui[5]: "updn_cnt"
   ui[6]: "count_enb"
