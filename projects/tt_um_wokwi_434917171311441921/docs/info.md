@@ -10,9 +10,11 @@ You can also include images in this folder and reference them in the markdown. E
 ## How it works
 
 Inputs to LED number display experiment
+
 ## How to test
 
 dont use it. not good
+
 ## External hardware
 
 yes
