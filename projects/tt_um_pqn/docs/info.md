@@ -9,13 +9,13 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it Works
 
-This project is based on the PQN model [1], which is designed for the digital implementation of neuron circuits.  
+This project is based on the PQN model[^1], which is designed for the digital implementation of neuron circuits.  
 In particular, this work adopts a two-variation PQN model.  
-The parameters are configured to reproduce Class 1 and Class 2 neurons according to Hodgkin’s classification [2].
+The parameters are configured to reproduce Class 1 and Class 2 neurons according to Hodgkin’s classification[^2].
 
 ### Governing Equations
 
-Following [1], The neuron dynamics are defined as:
+Following footnote 1, The neuron dynamics are defined as:
 
 ```math
 \frac{dv}{dt} = \frac{\phi}{\tau} \left( f(v) - n + I_0 + k I_{\text{stim}} \right)
@@ -101,6 +101,7 @@ For the expanded coefficients used in implementation, please refer to the module
 ### Module Interface
 
 The ports usage of the top module is as follows:
+
 | Pins | Bits | Direction | Description |
 | --------------------------- | ---- | --------- | ------------------------------------ |
 | `clk` | 1 | Input | Clock signal |
@@ -110,8 +111,8 @@ The ports usage of the top module is as follows:
 | `ui_in[0]` | 1 | Input | Mode select input |
 | `uo_out[7:0], uio_out[7:0]` | 16 | Output | Signed 16-bit membrane voltage |
 
-[1] Nanami, T., & Kohno, T. (2023). Piecewise quadratic neuron model: A tool for close-to-biology spiking neuronal network simulation on dedicated hardware. Frontiers in Neuroscience, 16, 1069133.c  
-[2] Hodgkin, A. L. (1948). The local electric changes associated with repetitive action in a non-medullated axon. The Journal of physiology, 107(2), 165.
+[^1]: Nanami, T., & Kohno, T. (2023). Piecewise quadratic neuron model: A tool for close-to-biology spiking neuronal network simulation on dedicated hardware. Frontiers in Neuroscience, 16, 1069133.c  
+[^2]: Hodgkin, A. L. (1948). The local electric changes associated with repetitive action in a non-medullated axon. The Journal of physiology, 107(2), 165.
 
 ## How to Test
 
