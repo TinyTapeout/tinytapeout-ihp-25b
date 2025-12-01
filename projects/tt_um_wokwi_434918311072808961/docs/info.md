@@ -10,9 +10,11 @@ You can also include images in this folder and reference them in the markdown. E
 ## How it works
 
 i DONT NOW
+
 ## How to test
 
 KLICK THE BOTTOM
+
 ## External hardware
 
 7 DIGTIS TEIL
