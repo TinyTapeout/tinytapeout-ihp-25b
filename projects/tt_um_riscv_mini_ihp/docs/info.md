@@ -11,7 +11,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 This project implements _RISC-V Mini_ by RickGao (https://github.com/RickGao/RISC-V-Mini), a compact 8-bit RISC-V processor core optimized for Tiny Tapeout, a fabrication platform for small-scale educational IC projects. The processor employs a customized, compressed RISC-V instruction set (RVC) to reduce instruction width to 16 bits, leading to a more compact design suited to Tiny Tapeout's area and resource constraints. Developed in Verilog, this processor will handle computational, load/store and control-flow operations efficiently and undergo verification through simulation and testing.
 
-### Processor Components
+### Processor Components
 
 The processor comprises the following core components, optimized to meet Tiny Tapeout’s area requirements:
 
@@ -47,7 +47,7 @@ Simply set the input to the instruction and clock once to receive the output.
 | XOR    |      001       |       01       |    XXX     |   XXX     |   XXX    | Opcode(00) | 
 | SLT    |      111       |       00       |    XXX     |   XXX     |   XXX    | Opcode(00) | 
 
-#### I-Type
+#### I-Type
 
 | Name   | funct3 [15:13] | Imm [12:8] (5-bit unsigned) | rs1 [7:5] | rd [4:2] | Opcode(01) | 
 | ---- | -------------- | -------------- | ---------- | --------- | --- |
@@ -74,9 +74,3 @@ Simply set the input to the instruction and clock once to receive the output.
 | BEQ    |  011       |       00       |    XXX     |   XXX     |   000    | Opcode(11)| 
 | BNE    |      011       |       10       |    XXX     |   XXX     |   000    | Opcode(11)| 
 | BLT    |      111       |       00       |    XXX     |   XXX     |   000    | Opcode(11)| 
-
-
-
-## External hardware
-
-No external hardware.
