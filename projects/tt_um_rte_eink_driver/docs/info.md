@@ -30,19 +30,18 @@ the e-ink display is not PMOD-compatible, it is necessary to install a header
 onto the e-ink display and create a bundle of jumper wires to connect to the
 PMOD as follows:
 
-pin     signal  direction  PMOD pin
-----------------------------------------------------------
-ECS:    uio[0]  output     1
-MOSI:   uio[1]  output     2
-MISO:   uio[2]  input      3
-SCK:    uio[3]  output     4
-SRCS:   uio[4]  output     7
-RST:    uio[5]  output     8
-BUSY:   uio[6]  input      9
-D/C:    uio[7]  output     10
-GND:                       11 or 5
-VIN:                       12 or 6
-----------------------------------------------------------
+| pin  | signal | direction | PMOD pin |
+| :--- | :----- | :-------- | :------- |
+| ECS  | uio[0] | output    | 1        |
+| MOSI | uio[1] | output    | 2        |
+| MISO | uio[2] | input     | 3        |
+| SCK  | uio[3] | output    | 4        |
+| SRCS | uio[4] | output    | 7        |
+| RST  | uio[5] | output    | 8        |
+| BUSY | uio[6] | input     | 9        |
+| D/C  | uio[7] | output    | 10       |
+| GND  |        |           | 11 or 5  |
+| VIN  |        |           | 12 or 8  |
 
 To test the eight example patterns, raise one of the input pins
 to value "1".  This can be done with a set of external buttons on
